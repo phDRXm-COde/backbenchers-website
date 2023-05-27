@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+}
+
+.nav-list {
+    width: 70%;
+   /* background-color: black; */
+   display: flex;
+   align-items: center;
+    
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 25px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color:grey;
+
+}
+
+.rightNav{
+    /* background-color: blue; */
+    width: 29%;
+    text-align: right;
+    padding: 0 20px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(160, 221, 216);
+    border-radius: 10px;
+}
+
+.background{
+    background: rgba(68, 67, 67, 0.7)url('../img/dice.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 75%;
+    /* padding: 4px 0px; */
+    border: 4px solid white;
+    border-radius: 130px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 31px;
+    text-align: center;
+}
+
+.text-small{
+    font-size: 20px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 5px 15px;
+    vertical-align: middle;
+}
+
+.btn{
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+}
+
+.section{
+    /* height: 250px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section-Left{
+   flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0 59px;
+}
+
+.sectionTag{
+    text-align: left;
+    padding: 0 20px;
+}
+
+.sectionSubTag{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cute img{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+/* .cutes{
+    border: 2px solid black;
+    border-radius: 4px;
+} */
+
+.contact{
+    background-color: rgb(224, 220, 220);
+    height: 650px;
+}
+
+.text-center{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form{
+    max-width:62%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+
+.text-footer{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.burger{
+    display: none;
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
